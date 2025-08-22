@@ -1,0 +1,55 @@
+.btn{
+    border-radius: 4px;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    &-dark{
+        background-color: $neutral-900;
+        color: $neutral-0;
+    }
+    &-light{
+        border: 1px solid $neutral-900;
+    }
+    &:hover {
+        background-color: $neutral-700;
+        color: $neutral-0;
+    }
+    
+
+}
+@media (max-width: 767px) {
+    .btn-border {
+        border: 0px;
+        padding: 12px;
+        
+    }
+}
+@media (max-width:576px) {
+    .btn {
+        padding: 8px 16px;
+    }
+}
+
+@media (min-width:767px) {
+    .btn-border {
+        display: none;
+    }
+}
+
+// .btn-dark{
+//     background-color: $neutral-900;
+//     color: $neutral-0;
+// }
+// .btn-light{
+//     border: 1px solid $neutral-900;
+// }
+// .section-lined{
+//     max-width: 100%;
+//     border-top: 1px solid $neutral-300;
+
+// }
